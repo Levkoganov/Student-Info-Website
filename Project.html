@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINKS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/Project.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <!-- SCRIPTS -->
+    <script src="js/Project.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <title>Project</title>
+  </head>
+  <body class="body">
+    <header>
+      <!--Navbar-->
+      <nav class="menu" id="navBar">
+        <div class="d-flex">
+          <div class="sidebar">
+            <h2 class="sidebarHeader">Sidebar</h2>
+            <ul class="sidebar-ul">
+              <!-- STUDENT SECTION -->
+              <li class="nav-item sidebar-li">
+                <a class="nav-link" href="#Student" id="student"
+                  ><i class="fas fa-home"></i>student</a
+                >
+              </li>
+              <!-- COURSE SECTION -->
+              <li class="nav-item sidebar-li">
+                <a class="nav-link" href="#Course" id="course"
+                  ><i class="fas fa-user"></i>Course</a
+                >
+              </li>
+              <!-- CALENDAR SECTION -->
+              <li class="nav-item sidebar-li">
+                <a class="nav-link" href="#Calendar" id="calendar"
+                  ><i class="fas fa-address-card"></i>Calendar</a
+                >
+              </li>
+              <!-- LOGOUT SECTION -->
+              <li class="nav-item sidebar-li">
+                <a class="nav-link" href="#Calendar" id="logout"
+                  ><i class="fas fa-project-diagram"></i>Logout</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- OUTPUT DIV!!!!! -->
+          <div class="container-fluid" id="container"></div>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- LOGIN SECTION!!! -->
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <!-- Login form -->
+            <form id="loginForm">
+              <div class="form-group">
+                <!-- Email -->
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="name@example.com"
+                  value="lev.20133@gmail.com"
+                />
+              </div>
+              <div class="form-group">
+                <!-- Password -->
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="password"
+                  id="exampleInputPassword1"
+                  value="317975266"
+                />
+              </div>
+              <div class="form-group">
+                <!-- ERROR MESSENGE -->
+                <div class="text-center" id="msg"></div>
+                <input
+                  type="submit"
+                  class="btn btn-dark btn-block"
+                  value="Submit"
+                  id="submit"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-center" id="footer">
+      <!-- LINK SECTION -->
+      <div class="d-flex justify-content-center footer-link">
+        <a href="https://rt-ed.co.il/"
+          ><span> | </span> main <span> | </span></a
+        >
+        <a href="https://rt-ed.co.il/contact-us/"
+          ><span> | </span>contact<span> | </span></a
+        >
+        <a href="https://rt-ed.co.il/about/"
+          ><span> | </span>about<span> | </span></a
+        >
+        <a href="https://rt-ed.co.il/courses/full-stack/#about-tab"
+          ><span> | </span>fullstack<span> | </span></a
+        >
+      </div>
+      <!-- ICON SECTION -->
+      <div class="d-flex justify-content-center footer-icon">
+        <a href="https://www.facebook.com/RealTimeCollegeIL/"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a href="https://www.linkedin.com/company/rtgroup"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.youtube.com/channel/UCqktX2qErNOzmgDDryxq1OQ"
+          ><i class="fab fa-youtube-square"></i
+        ></a>
+      </div>
+      <!-- CREDIT&RIGHTS -->
+      <div class="copyright text-center credit">
+        <strong>&copy;copyright.</strong>
+        <br />
+        <span>All Rights Reserved</span>
+        <p>Designed by Lev.k</p>
+      </div>
+    </footer>
+  </body>
+</html>

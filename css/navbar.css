@@ -1,0 +1,58 @@
+/* NAVBAR OVERALL SETTINGS */
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #4b4276;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+.sidebar a {
+  font-size: 1rem;
+  color: #bdb8d7;
+}
+
+.nav-link {
+  display: block;
+  padding: 0rem 0rem;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebarHeader {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.fas {
+  padding-right: 10px;
+}
+
+.nav-link:hover {
+  background-color: #594f8d;
+}
+
+@media screen and (max-height: 450px) {
+  .sticky {
+    padding-top: 15px;
+  }
+  .sticky a {
+    font-size: 18px;
+  }
+}

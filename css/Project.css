@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+/* CONTAINER OUTOUT */
+#container {
+  margin-left: 200px;
+  background: #fff;
+}
+/* SIDEBAR DISPLAY NONE */
+.menu {
+  display: none;
+}
+/* SUDENT SECTION */
+#overflow {
+  overflow: hidden;
+}
+.row {
+  flex-wrap: nowrap;
+}
+.odd-list {
+  background-color: #f2f2f2;
+}
+
+.student-header {
+  padding: 0.75rem;
+  border-bottom: 2px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  background-color: #f2f2f2;
+}
+
+.student-row {
+  margin-bottom: 10px;
+}
+
+.table-header {
+  background-color: #f2f2f2;
+}
+
+/* FOOTER SECTION*/
+footer {
+  display: none;
+  border-bottom: 2px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  background-color: #f2f2f2;
+  margin-left: 200px;
+}
+
+.footer-link a {
+  padding: 10px;
+  color: rgb(22, 21, 21);
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  color: rgb(75, 49, 206);
+}
+
+.footer-icon a {
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(22, 21, 21);
+  border-radius: 50%;
+}
+.footer-icon a:hover {
+  color: rgb(75, 49, 206);
+}
+
+.credit {
+  padding-top: 15px;
+}
